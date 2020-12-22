@@ -1,0 +1,402 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.amap.navi.demo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:7:5-47
+8        android:minSdkVersion="14"
+8-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:7:5-47
+9        android:targetSdkVersion="26" />
+9-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:7:15-44
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:225:5-67
+11-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:225:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:226:5-81
+12-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:226:22-78
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:227:5-81
+13-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:227:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:228:5-79
+14-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:228:22-76
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:229:5-79
+15-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:229:22-76
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:230:5-75
+16-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:230:22-72
+17    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+17-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:231:5-76
+17-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:231:22-73
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:232:5-76
+18-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:232:22-73
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:233:5-68
+19-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:233:22-65
+20
+21    <application
+21-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:9:5-223:19
+22        android:name="com.amap.navi.demo.MyApp"
+22-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:11:9-29
+23        android:allowBackup="false"
+23-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:12:9-36
+24        android:debuggable="true"
+25        android:icon="@drawable/ic_launcher"
+25-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:13:9-45
+26        android:label="@string/app_name"
+26-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:14:9-41
+27        android:testOnly="true"
+28        android:theme="@android:style/Theme.Light" >
+28-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:15:9-51
+29        <meta-data
+29-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:16:9-18:64
+30            android:name="com.amap.api.v2.apikey"
+30-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:17:13-50
+31            android:value="a6723fb8f312120c31d7b24b16c3f112" />
+31-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:18:13-61
+32
+33        <activity
+33-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:20:9-28:20
+34            android:name="com.amap.navi.demo.activity.IndexActivity"
+34-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:21:13-51
+35            android:label="@string/app_name"
+35-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:22:13-45
+36            android:screenOrientation="portrait" >
+36-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:23:13-49
+37            <intent-filter>
+37-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:24:13-27:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:25:17-69
+38-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:25:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:26:17-77
+40-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:26:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:30:9-32:77
+44            android:name="com.amap.api.navi.AmapRouteActivity"
+44-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:31:13-63
+45            android:configChanges="orientation|keyboardHidden|screenSize" />
+45-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:32:13-74
+46        <activity
+46-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:34:9-38:69
+47            android:name="com.amap.navi.demo.activity.BasicNaviActivity"
+47-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:35:13-73
+48            android:configChanges="orientation|keyboardHidden|screenSize"
+48-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:36:13-74
+49            android:label="@string/app_name"
+49-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:37:13-45
+50            android:theme="@android:style/Theme.Light.NoTitleBar" />
+50-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:38:13-66
+51        <activity
+51-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:40:9-44:69
+52            android:name="com.amap.navi.demo.activity.CustomZoomInIntersectionViewActivity"
+52-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:41:13-92
+53            android:configChanges="orientation|keyboardHidden|screenSize"
+53-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:42:13-74
+54            android:label="@string/app_name"
+54-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:43:13-45
+55            android:theme="@android:style/Theme.Light.NoTitleBar" />
+55-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:44:13-66
+56        <activity
+56-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:47:9-51:69
+57            android:name="com.amap.navi.demo.activity.CustomRouteActivity"
+57-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:48:13-75
+58            android:configChanges="orientation|keyboardHidden|screenSize"
+58-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:49:13-74
+59            android:label="@string/app_name"
+59-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:50:13-45
+60            android:theme="@android:style/Theme.Light.NoTitleBar" />
+60-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:51:13-66
+61        <activity
+61-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:53:9-57:69
+62            android:name="com.amap.navi.demo.activity.CustomDriveWayViewActivity"
+62-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:54:13-82
+63            android:configChanges="orientation|keyboardHidden|screenSize"
+63-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:55:13-74
+64            android:label="@string/app_name"
+64-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:56:13-45
+65            android:theme="@android:style/Theme.Light.NoTitleBar" />
+65-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:57:13-66
+66        <activity
+66-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:59:9-63:69
+67            android:name="com.amap.navi.demo.activity.HudDisplayActivity"
+67-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:60:13-74
+68            android:configChanges="orientation|keyboardHidden|screenSize"
+68-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:61:13-74
+69            android:label="@string/app_name"
+69-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:62:13-45
+70            android:theme="@android:style/Theme.Light.NoTitleBar" />
+70-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:63:13-66
+71        <activity
+71-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:65:9-69:69
+72            android:name="com.amap.navi.demo.activity.IntelligentBroadcastActivity"
+72-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:66:13-84
+73            android:configChanges="orientation|keyboardHidden|screenSize"
+73-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:67:13-74
+74            android:label="@string/app_name"
+74-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:68:13-45
+75            android:theme="@android:style/Theme.Light.NoTitleBar" />
+75-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:69:13-66
+76        <activity
+76-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:70:9-75:63
+77            android:name="com.amap.navi.demo.activity.RoutePlanningActivity"
+77-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:71:13-77
+78            android:configChanges="orientation|keyboardHidden|screenSize"
+78-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:72:13-74
+79            android:label="@string/app_name"
+79-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:73:13-45
+80            android:theme="@android:style/Theme.Light.NoTitleBar"
+80-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:74:13-66
+81            android:windowSoftInputMode="stateAlwaysHidden" />
+81-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:75:13-60
+82        <activity
+82-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:76:9-80:69
+83            android:name="com.amap.navi.demo.activity.GPSNaviActivity"
+83-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:77:13-71
+84            android:configChanges="orientation|keyboardHidden|screenSize"
+84-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:78:13-74
+85            android:label="@string/app_name"
+85-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:79:13-45
+86            android:theme="@android:style/Theme.Light.NoTitleBar" />
+86-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:80:13-66
+87        <activity
+87-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:82:9-86:69
+88            android:name="com.amap.navi.demo.activity.CustomTrafficBarViewActivity"
+88-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:83:13-84
+89            android:configChanges="orientation|keyboardHidden|screenSize"
+89-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:84:13-74
+90            android:label="@string/app_name"
+90-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:85:13-45
+91            android:theme="@android:style/Theme.Light.NoTitleBar" />
+91-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:86:13-66
+92        <activity
+92-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:88:9-92:69
+93            android:name="com.amap.navi.demo.activity.SimpleNaviActivity"
+93-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:89:13-74
+94            android:configChanges="orientation|keyboardHidden|screenSize"
+94-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:90:13-74
+95            android:label="@string/app_name"
+95-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:91:13-45
+96            android:theme="@android:style/Theme.Light.NoTitleBar" />
+96-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:92:13-66
+97        <activity
+97-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:94:9-98:69
+98            android:name="com.amap.navi.demo.activity.GetNaviStepsAndLinksActivity"
+98-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:95:13-84
+99            android:configChanges="orientation|keyboardHidden|screenSize"
+99-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:96:13-74
+100            android:label="@string/app_name"
+100-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:97:13-45
+101            android:theme="@android:style/Theme.Light.NoTitleBar" />
+101-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:98:13-66
+102        <activity
+102-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:99:9-103:69
+103            android:name="com.amap.navi.demo.activity.NorthModeActivity"
+103-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:100:13-73
+104            android:configChanges="orientation|keyboardHidden|screenSize"
+104-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:101:13-74
+105            android:label="@string/app_name"
+105-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:102:13-45
+106            android:theme="@android:style/Theme.Light.NoTitleBar" />
+106-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:103:13-66
+107        <activity
+107-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:104:9-108:69
+108            android:name="com.amap.navi.demo.activity.OverviewModeActivity"
+108-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:105:13-76
+109            android:configChanges="orientation|keyboardHidden|screenSize"
+109-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:106:13-74
+110            android:label="@string/app_name"
+110-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:107:13-45
+111            android:theme="@android:style/Theme.Light.NoTitleBar" />
+111-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:108:13-66
+112        <activity
+112-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:110:9-114:69
+113            android:name="com.amap.navi.demo.activity.BasicWalkNaviActivity"
+113-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:111:13-77
+114            android:configChanges="orientation|keyboardHidden|screenSize"
+114-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:112:13-74
+115            android:label="@string/app_name"
+115-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:113:13-45
+116            android:theme="@android:style/Theme.Light.NoTitleBar" />
+116-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:114:13-66
+117        <activity
+117-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:117:9-121:69
+118            android:name="com.amap.navi.demo.activity.UseExtraGpsDataActivity"
+118-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:118:13-79
+119            android:configChanges="orientation|keyboardHidden|screenSize"
+119-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:119:13-74
+120            android:label="@string/app_name"
+120-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:120:13-45
+121            android:theme="@android:style/Theme.Light.NoTitleBar" />
+121-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:121:13-66
+122        <activity
+122-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:124:9-128:69
+123            android:name="com.amap.navi.demo.activity.CustomCarActivity"
+123-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:125:13-73
+124            android:configChanges="orientation|keyboardHidden|screenSize"
+124-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:126:13-74
+125            android:label="@string/app_name"
+125-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:127:13-45
+126            android:theme="@android:style/Theme.Light.NoTitleBar" />
+126-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:128:13-66
+127        <activity
+127-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:130:9-134:69
+128            android:name="com.amap.navi.demo.activity.CustomRouteTextureInAMapNaviViewActivity"
+128-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:131:13-96
+129            android:configChanges="orientation|keyboardHidden|screenSize"
+129-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:132:13-74
+130            android:label="@string/app_name"
+130-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:133:13-45
+131            android:theme="@android:style/Theme.Light.NoTitleBar" />
+131-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:134:13-66
+132        <activity
+132-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:137:9-141:69
+133            android:name="com.amap.navi.demo.activity.CustomDirectionViewActivity"
+133-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:138:13-83
+134            android:configChanges="orientation|keyboardHidden|screenSize"
+134-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:139:13-74
+135            android:label="@string/app_name"
+135-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:140:13-45
+136            android:theme="@android:style/Theme.Light.NoTitleBar" />
+136-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:141:13-66
+137        <activity
+137-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:143:9-147:69
+138            android:name="com.amap.navi.demo.activity.CustomTrafficButtonViewActivity"
+138-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:144:13-87
+139            android:configChanges="orientation|keyboardHidden|screenSize"
+139-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:145:13-74
+140            android:label="@string/app_name"
+140-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:146:13-45
+141            android:theme="@android:style/Theme.Light.NoTitleBar" />
+141-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:147:13-66
+142        <activity
+142-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:150:9-154:69
+143            android:name="com.amap.navi.demo.activity.CustomNextTurnTipViewActivity"
+143-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:151:13-85
+144            android:configChanges="orientation|keyboardHidden|screenSize"
+144-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:152:13-74
+145            android:label="@string/app_name"
+145-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:153:13-45
+146            android:theme="@android:style/Theme.Light.NoTitleBar" />
+146-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:154:13-66
+147        <activity
+147-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:157:9-161:69
+148            android:name="com.amap.navi.demo.activity.CustomZoomButtonViewActivity"
+148-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:158:13-84
+149            android:configChanges="orientation|keyboardHidden|screenSize"
+149-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:159:13-74
+150            android:label="@string/app_name"
+150-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:160:13-45
+151            android:theme="@android:style/Theme.Light.NoTitleBar" />
+151-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:161:13-66
+152        <activity
+152-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:164:9-168:69
+153            android:name="com.amap.navi.demo.activity.CustomOverviewButtonViewActivity"
+153-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:165:13-88
+154            android:configChanges="orientation|keyboardHidden|screenSize"
+154-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:166:13-74
+155            android:label="@string/app_name"
+155-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:167:13-45
+156            android:theme="@android:style/Theme.Light.NoTitleBar" />
+156-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:168:13-66
+157        <activity
+157-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:169:9-173:69
+158            android:name="com.amap.navi.demo.activity.RestRouteShowActivity"
+158-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:170:13-77
+159            android:configChanges="orientation|keyboardHidden|screenSize"
+159-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:171:13-74
+160            android:label="@string/app_name"
+160-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:172:13-45
+161            android:theme="@android:style/Theme.Light.NoTitleBar" />
+161-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:173:13-66
+162        <activity
+162-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:174:9-178:69
+163            android:name="com.amap.navi.demo.activity.RouteNaviActivity"
+163-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:175:13-73
+164            android:configChanges="orientation|keyboardHidden|screenSize"
+164-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:176:13-74
+165            android:label="@string/app_name"
+165-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:177:13-45
+166            android:theme="@android:style/Theme.Light.NoTitleBar" />
+166-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:178:13-66
+167        <activity
+167-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:180:9-184:69
+168            android:name="com.amap.navi.demo.activity.SingleRouteCalculateActivity"
+168-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:181:13-66
+169            android:configChanges="orientation|keyboardHidden|screenSize"
+169-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:182:13-74
+170            android:label="@string/app_name"
+170-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:183:13-45
+171            android:theme="@android:style/Theme.Light.NoTitleBar" />
+171-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:184:13-66
+172        <activity
+172-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:186:9-190:69
+173            android:name="com.amap.navi.demo.activity.WalkRouteCalculateActivity"
+173-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:187:13-64
+174            android:configChanges="orientation|keyboardHidden|screenSize"
+174-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:188:13-74
+175            android:label="@string/app_name"
+175-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:189:13-45
+176            android:theme="@android:style/Theme.Light.NoTitleBar" />
+176-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:190:13-66
+177        <activity
+177-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:192:9-196:69
+178            android:name="com.amap.navi.demo.activity.RideRouteCalculateActivity"
+178-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:193:13-64
+179            android:configChanges="orientation|keyboardHidden|screenSize"
+179-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:194:13-74
+180            android:label="@string/app_name"
+180-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:195:13-45
+181            android:theme="@android:style/Theme.Light.NoTitleBar" />
+181-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:196:13-66
+182        <activity
+182-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:198:9-202:69
+183            android:name="com.amap.navi.demo.activity.EmulatorActivity"
+183-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:199:13-54
+184            android:configChanges="orientation|keyboardHidden|screenSize"
+184-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:200:13-74
+185            android:label="@string/app_name"
+185-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:201:13-45
+186            android:theme="@android:style/Theme.Light.NoTitleBar" />
+186-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:202:13-66
+187        <activity
+187-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:204:9-208:69
+188            android:name="com.amap.navi.demo.activity.custom.CustomUiActivity"
+188-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:205:13-61
+189            android:configChanges="orientation|keyboardHidden|screenSize"
+189-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:206:13-74
+190            android:label="@string/app_name"
+190-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:207:13-45
+191            android:theme="@android:style/Theme.Light.NoTitleBar" />
+191-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:208:13-66
+192        <activity
+192-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:210:9-214:69
+193            android:name="com.amap.navi.demo.activity.DriverListActivity"
+193-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:211:13-56
+194            android:configChanges="orientation|keyboardHidden|screenSize"
+194-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:212:13-74
+195            android:label="@string/app_name"
+195-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:213:13-45
+196            android:theme="@android:style/Theme.Light.NoTitleBar" />
+196-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:214:13-66
+197        <activity
+197-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:216:9-220:69
+198            android:name="com.amap.navi.demo.activity.NaviInfoActivity"
+198-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:217:13-54
+199            android:configChanges="orientation|keyboardHidden|screenSize"
+199-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:218:13-74
+200            android:label="@string/app_name"
+200-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:219:13-45
+201            android:theme="@android:style/Theme.Light.NoTitleBar" />
+201-->E:\AndroidProjects\Android_Navi_Demo-master\app\src\main\AndroidManifest.xml:220:13-66
+202    </application>
+203
+204</manifest>
